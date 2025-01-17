@@ -38,7 +38,7 @@ module ALU_tb();
 	initial begin
 		$dumpfile("Junk/ALU.vcd");
 		$dumpvars(0, ALU_tb);
-		file = $fopen("Results/ALU.r", "w");
+		file = $fopen("Results/ALU.txt", "w");
 		for(test = 0; test < `NUM_ALU_TEST; test = test + 1) begin
 			operation = $urandom % 4;	// Used to determine what operation is perform
 			if(operation == 0) 
