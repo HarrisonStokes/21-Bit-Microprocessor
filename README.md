@@ -1,6 +1,6 @@
 # 21-Bit Microprocessor
 ## Table of Contents:
-1. [Purpose](Purpose)
+1. [Purpose][Purpose]
 
 ## [Purpose]:
 
