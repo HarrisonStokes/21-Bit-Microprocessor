@@ -11,6 +11,7 @@
 9. [License](#License)
 
 ## Purpose
+The purpose of this project was to design and implement a simple microprocessor with a custom instruction set architecture (ISA) as part of a couse final project. Additionally, the project aimed to provide a deeper understanding of microprocessor operations at the hardware level and to improve knowledge of how assemblers function.
 
 ## Dependencies
 The project utilizes the following technology for Linux:
