@@ -39,7 +39,7 @@ module IR_tb();
 		$dumpfile("Junk/IR.vcd");
 		$dumpvars(0, IR_tb);
 		in_file = $fopen("Testbenches/binary.mac", "r");
-		out_file = $fopen("Results/IR.r", "w");
+		out_file = $fopen("Results/IR.txt", "w");
 		for(address = 0; address < `NUM_IR_TEST; address = address + 1) begin
 			#(`PERIOD) IR_Load = 1;
 			if(`IR_GEN_RAND_INST) begin
