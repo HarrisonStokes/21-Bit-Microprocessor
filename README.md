@@ -42,6 +42,10 @@ Icarus Verilog allows coding structures that are not allowed by other compilers.
 2. The dumpfile and dumpvars in the testbenches are needed for simulator and waveform, but not needed for other softwares.
 
 ## Objectives
+* Develop a project of sufficient difficulty to demonstrate knowledge learned from ECE 176 coursework.
+* Must use Verilog to develop project.
+* Must successfully work.
+* Must be a custom ISA.
 
 ## Architecture
 
@@ -50,6 +54,14 @@ Icarus Verilog allows coding structures that are not allowed by other compilers.
 ## Tutorial
 
 ## Improvements:
+* Better memory structure: Enhance the organization and efficient memory access.
+* Improve assembler efficiency: Optimize the assembler by using tokenization and added strict syntax.
+* Enhanced assembler warning and error handling: Utilize semantic treees.
+* Expand ISA capabilites: Introduce new instructions and improve flexibility in the instruction seta architecture.
+    * Conditionals and branching.
+* Hazard and branch detection unit: Add mechanisms to detect and handle hazards and branches during execution.
+* Pipeling; Implement pipelining to improve the throughput and efficiency of the microprocessor.
+* Follow a standard bit width: To improve consistency and compatibility with other systems. Also to reduce manufacturing cost.
 
 ## Conclusion:
 
