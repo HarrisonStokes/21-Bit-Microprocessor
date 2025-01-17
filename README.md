@@ -1,6 +1,8 @@
 # 21-Bit Microprocessor
+## Table of Contents:
+1. [Purpose](Purpose)
 
-## Purpose:
+## [Purpose]:
 
 ## Course Specification:
 
