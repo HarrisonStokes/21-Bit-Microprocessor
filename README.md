@@ -22,7 +22,7 @@ The project utilizes the following technology for Linux:
 * Gtkwave Simulator
    * https://gtkwave.sourceforge.net/
 
- <u>If installing on Ubuntu</u>:
+ <ins>If installing on Ubuntu</ins>:</br>
 Make sure Ubuntu is up to date.
 
     sudo apt update && upgrade
