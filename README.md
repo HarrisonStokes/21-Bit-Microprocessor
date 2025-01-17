@@ -1,18 +1,24 @@
 # 21-Bit Microprocessor
 ## Table of Contents:
-1. [Purpose][Purpose]
+1. [Purpose](#Purpose)
+2. [Objectives](#Objectives)
+3. [Architecture](#Architecture)
+4. [Assembly](#Assembly)
+5. [Tutorial](#Tutorial)
+6. [Improvements](#Improvements)
+7. [Conclusion](#Conclusion)
 
-## [Purpose]:
+## Purpose
 
-## Course Specification:
+## Objectives
 
-## Microprocessor Architecture:
+## Architecture
 
-## Assembly Language:
+## Assembly
 
-## How to Operate:
+## Tutorial
 
-## Future Improvements:
+## Improvements:
 
 ## Conclusion:
 
