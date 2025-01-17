@@ -14,22 +14,31 @@
 
 ## Dependencies
 The project utilizes the following technology for Linux:
-* GNU Compilier Collection
+* GNU Compiler Collection
    * https://gcc.gnu.org/
-* Icarus Verilog Compilier
+* Icarus Verilog Compiler
    * https://steveicarus.github.io/iverilog/
 * Gtkwave Simulator
    * https://gtkwave.sourceforge.net/
 
- If installing on Ubuntu:
- 
+ <u>If installing on Ubuntu</u>:
+Make sure Ubuntu is up to date.
+
     sudo apt update && upgrade
-    sudo apt install gcc
+To install GNU Compiler Collection (GCC). Used to compile the assemblers source code.
+  
+    sudo apt install gcc 
+To install Icaruse Verilog Compiler (Iverilog). Used to compile Verilog files and run testbenches.
+ 
     sudo apt install iverilog
+To install Gtkwave Simulator. Used to visualize the waveforms and more simulation of testbenches.
+
     sudo apt install gtkwave
  
 **Known Issues**:
-Icarus Verilog allows coding structures that are not allowed by other compiliers.
+Icarus Verilog allows coding structures that are not allowed by other compilers.
+1. Iverilog allows for multiple ``always`` blocks, while VLOG does not allow for this.
+2. The dumpfile and dumpvars in the testbenches are needed for simulator and waveform, but not needed for other softwares.
 
 ## Objectives
 
