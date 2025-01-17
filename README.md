@@ -22,10 +22,11 @@ The project utilizes the following technology for Linux:
    * https://gtkwave.sourceforge.net/
 
  If installing on Ubuntu:
- sudo apt update && upgrade
- sudo apt install gcc
- sudo apt install iverilog
- sudo apt install gtkwave
+ 
+    sudo apt update && upgrade
+    sudo apt install gcc
+    sudo apt install iverilog
+    sudo apt install gtkwave
  
 **Known Issues**:
 Icarus Verilog allows coding structures that are not allowed by other compiliers.
