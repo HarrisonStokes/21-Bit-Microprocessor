@@ -73,7 +73,7 @@ module CONTROLLER_tb();
 		Reset = 0;
 
 		in_file = $fopen("Testbenches/binary.mac", "r");
-		out_file = $fopen("Results/CONTROLLER.r", "w");
+		out_file = $fopen("Results/CONTROLLER.txt", "w");
 		$fwrite(out_file, "Randomized Opcode = %b", `CONT_GEN_RAND_OPCODE);
 		$fwrite(out_file, "\n\n");
 		for(address = 0; address < run; address = address + 1) begin
