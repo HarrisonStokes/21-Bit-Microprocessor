@@ -52,7 +52,7 @@ module RAM_tb();
 		$dumpvars(0, RAM_tb);
 		in_file1 = $fopen("Testbenches/binary.mac","r");
 		in_file2 = $fopen("Testbenches/data.mac","r");
-		out_file = $fopen("Results/RAM.r", "w");
+		out_file = $fopen("Results/RAM.txt", "w");
 		if(`RAM_GEN_RAND_INPUT) begin
 			run = `NUM_RAM_TEST;		
 		end
