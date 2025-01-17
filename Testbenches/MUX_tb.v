@@ -29,7 +29,7 @@ module MUX_tb();
 	initial begin
 		$dumpfile("Junk/MUX.vcd");
 		$dumpvars(0, MUX_tb);
-		file = $fopen("Results/MUX.r", "w");
+		file = $fopen("Results/MUX.txt", "w");
 		for(test = 0; test < `NUM_MUX_TEST; test = test + 1) begin
 			Cond = $urandom % 2;	// Generates a unsigned value between 0-1.
 			True = $urandom % (`MUX_UPPER_BOUND-`MUX_LOWER_BOUND+1)+`MUX_LOWER_BOUND;
