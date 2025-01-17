@@ -34,7 +34,7 @@ module PC_tb();
 	initial begin
 		$dumpfile("Junk/PC.vcd");
 		$dumpvars(0, PC_tb);
-		file = $fopen("Results/PC.r", "w");
+		file = $fopen("Results/PC.txt", "w");
 		for(test = 0; test < `NUM_PC_TEST; test = test + 1) begin
 			#(`PERIOD);
 				PC_Clr = $urandom % 2;	// Generates a unsigned value between 0-1.
