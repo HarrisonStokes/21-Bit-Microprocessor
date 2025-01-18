@@ -48,7 +48,17 @@ Icarus Verilog allows coding structures that are not allowed by other compilers.
 * Must be a custom ISA.
 
 ## Architecture
-The architecture of the microprocessor is fairly straightforward and consists of 8 instructions. The figures below is contains a overview of the processor connections and module hierarchy:
+The architecture of the microprocessor is fairly straightforward and consists of 8 instructions with an instruction bit width of 21.
+
+### Microprocessor Top Level Connections
+![Microprocessor connection overview](https://github.com/HarrisonStokes/21-Bit-Microprocessor/blob/main/Pictures/Block_Diagram.png)
+
+### Module Hierarchy
+![Module hierarchu](https://github.com/HarrisonStokes/21-Bit-Microprocessor/blob/main/Pictures/Module_Hierarchy.png)
+
+### State Machine
+[State machine](https://github.com/HarrisonStokes/21-Bit-Microprocessor/blob/main/Pictures/State_Diagram.png)
+
 
 ![Microprocessor connection](https://github.com/HarrisonStokes/21-Bit-Microprocessor/blob/main/Pictures/Block_Diagram.png)
 
