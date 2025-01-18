@@ -54,7 +54,10 @@ The architecture of the microprocessor is fairly straightforward and consists of
 
 ![Module hierarchy](https://github.com/HarrisonStokes/21-Bit-Microprocessor/blob/main/Pictures/Module_Hierarchy.png)
 
+
+
 The microprocessor contains five states: Reset, Fetch, Decode, Execution, and Wait. The figure below illustrates how the state machine transitions:
+
 ![State machine](https://github.com/HarrisonStokes/21-Bit-Microprocessor/blob/main/Pictures/State_Diagram.png)
 
 
