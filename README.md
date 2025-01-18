@@ -64,6 +64,8 @@ Icarus Verilog allows coding structures that are not allowed by other compilers.
 * Follow a standard bit width: To improve consistency and compatibility with other systems. Also to reduce manufacturing cost.
 
 ## Conclusion:
+For a first attempt at designing a microprocessor without a formal background in Computer Architecture, this project was successful in achieving its [purpose](#Purpose) and [objectives](#Objectives). 
+After completing our Computer Architecture course (ECE 176), I now notice several areas in need of [improvement](#Improvements) in this project. This experience has sparked a deeper interest in computer architecture and system softeare as a whole.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
