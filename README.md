@@ -67,6 +67,13 @@ The architecture of the microprocessor is straightforward, featuring 8 instructi
 ![Instruction format](https://github.com/HarrisonStokes/21-Bit-Microprocessor/blob/main/Pictures/Instruction_Format.png)
 
 ## Assembly
+### Features 
+* 
+
+### Instruction
+
+### Registers
+
 
 ## Tutorial
 
