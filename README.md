@@ -156,6 +156,38 @@ The ``ADD``, ``SUB``, and ``MUL`` instructions perform addition, subtraction, mu
 
        MUL R3 R1 R2
 
+### DONE Instruction
+The ``DONE`` instruction stops the program counter and clears all instruction below it.
+
+#### Format
+
+    DONE
+
+### Sample Program
+
+    LOADR0#10
+    L,O,A,D,R,2,#,5,
+    L'O'A'D'R'1'='1'0
+    ADD     R3      R0      R1
+    STORE =10, R1
+    load r0, #63
+    SuB R1, R'2' ' R 3
+    LOAD R0 #0
+    LOAD R1 #1
+    ADD R0 R0 R1    ; PC jumps to here
+    LOAD PC =9      ; Load PC
+    LOADR0#10
+    L,O,A,D,R,2,#,5,
+    L'O'A'D'R'1'='1'0
+    ADD     R3      R0      R1
+    load r0, #63
+    SuB R1, R'2' ' R 3
+    LOAD R0 #0
+    LOAD R1 #1
+    ADD R0 R0 R1    ; PC jumps to here
+    LOAD PC =9      
+    DONE
+
 
 ## Tutorial
 
