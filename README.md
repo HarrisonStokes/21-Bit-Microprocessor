@@ -57,7 +57,7 @@ The architecture of the microprocessor is fairly straightforward and consists of
 ![Module hierarchu](https://github.com/HarrisonStokes/21-Bit-Microprocessor/blob/main/Pictures/Module_Hierarchy.png)
 
 ### State Machine
-[State machine](https://github.com/HarrisonStokes/21-Bit-Microprocessor/blob/main/Pictures/State_Diagram.png)
+![State machine](https://github.com/HarrisonStokes/21-Bit-Microprocessor/blob/main/Pictures/State_Diagram.png)
 
 ### Instruction Set Architecture
 #### Opcodes
