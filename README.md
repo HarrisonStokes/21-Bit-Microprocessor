@@ -76,7 +76,50 @@ The architecture of the microprocessor is straightforward, featuring 8 instructi
 
 ## Assembly
 ### Features 
-* 
+* Case insensitve
+* Whitespace insensitive
+* Ignores all non-alphanumerical and non-reserved operators
+
+| Keyword | Description |
+|---------|-------------|
+| ;       | Indicates a comment |
+| #       | Indicates an immediate value |
+| =       | Indicates a memory address |
+| LOAD    | It used to load an immediate value or data from an memory address |
+| STORE   | It used to store a register value into a memory address |
+| ADD     | Performs addition between two registers |
+| SUB     | Performs subtraction between two registers |
+| MUL     | Performs multiplication between two registers |
+| DONE    | Stops program counter and removes any instructions below it |
+
+| Registers | Purpose |
+|-----------|---------|
+| R0 - R7   | Eight general purpose registers |
+| PC        | Program counter |
+
+### LOAD Instruction
+The ``LOAD`` instruction is used to load a register with either an immediate value or data from memory address.
+
+#### Format:
+    
+    LOAD _DEST_ (#/=) (_IMMD/ADDR_)
+
+#### Examples:
+1. Loading an immediate value into a register
+   The following demonstrates loading the decimal value ``63`` into register ``R0``:
+
+       LOAD R0 #63
+   
+2. Loading data from memory address into a register
+   The following demonstrates loading data from memory address ``10`` into register ``R0``:
+    
+       LOAD R0 =10
+   
+3. Loading the program counter with an instruction memory address
+   The following demonstrates loading the program counter with an instruction address of ``9``:
+
+       LOAD PC =9
+
 
 ### Instruction
 
