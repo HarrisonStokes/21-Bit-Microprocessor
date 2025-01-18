@@ -184,7 +184,7 @@ The ``DONE`` instruction stops the program counter and clears all instruction be
     SuB R1, R'2' ' R 3
     LOAD R0 #0
     LOAD R1 #1
-    ADD R0 R0 R1    ; PC jumps to here
+    ADD R0 R0 R1    
     LOAD PC =9      
     DONE
 
