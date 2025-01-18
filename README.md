@@ -39,6 +39,10 @@ To install Gtkwave Simulator. Used to visualize the waveforms and more simulatio
 To clone repository run the following command:
 
     git clone https://github.com/HarrisonStokes/21-Bit-Microprocessor.git
+
+Finally, give permission to make.sh to run as an executable:
+
+    chmod +x make.sh
  
 **Known Issues**:
 Icarus Verilog allows coding structures that are not allowed by other compilers.
