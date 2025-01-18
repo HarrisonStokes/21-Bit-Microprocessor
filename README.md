@@ -48,8 +48,10 @@ Icarus Verilog allows coding structures that are not allowed by other compilers.
 * Must be a custom ISA.
 
 ## Architecture
-The architecture of the microprocessor is fairly straightforward and consists of 8 instructions. The figure below is contains a overview of the processor connections and module hierarchy:
+The architecture of the microprocessor is fairly straightforward and consists of 8 instructions. The figures below is contains a overview of the processor connections and module hierarchy:
+
 ![Microprocessor connection](https://github.com/HarrisonStokes/21-Bit-Microprocessor/blob/main/Pictures/Block_Diagram.png)
+
 ![Module hierarchy](https://github.com/HarrisonStokes/21-Bit-Microprocessor/blob/main/Pictures/Module_Hierarchy.png)
 
 The microprocessor contains five states: Reset, Fetch, Decode, Execution, and Wait. The figure below illustrates how the state machine transitions:
