@@ -102,7 +102,7 @@ The ``LOAD`` instruction is used to load a register with either an immediate val
 
 #### Format:
     
-    LOAD _DEST_ (#/=) (_IMMD/ADDR_)
+    LOAD DEST (#/=) (IMMD / ADDR)
 
 #### Examples:
 1. Loading an immediate value into a register
@@ -120,10 +120,41 @@ The ``LOAD`` instruction is used to load a register with either an immediate val
 
        LOAD PC =9
 
+### STORE Instruction
+The ``STORE`` instruction is used to store data in a register into a memory address.
 
-### Instruction
+#### Format:
 
-### Registers
+    STORE =ADDR DEST
+
+#### Example:
+1. Storing a register value into memory
+   The following demonstrates storing ``R1`` into memory address ``10``:
+
+       STORE =10 R1
+
+### Arithmetic Instructions
+The ``ADD``, ``SUB``, and ``MUL`` instructions perform addition, subtraction, multiplication between two registers respectively.
+
+#### Format:
+
+    (ADD/SUB/MUL) DEST SRC1 SRC2
+
+#### Examples:
+1. Addition
+   The following demonstrates the addition of ``R1`` and ``R2`` with the result being stored in ``R3``:
+
+       ADD R3 R1 R2
+   
+2. Subtraction
+   The following demonstrates the subtraction of ``R1`` and ``R2`` with the result being stored in ``R3``:
+
+       SUB R3 R1 R2
+   
+3. Multiplication
+   The following demonstrates the multiplication of ``R1`` and ``R2`` with the result being stored in ``R3``:
+
+       MUL R3 R1 R2
 
 
 ## Tutorial
