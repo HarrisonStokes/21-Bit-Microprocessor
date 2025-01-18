@@ -73,9 +73,12 @@ simulate() {
 	module="${testbench/_tb/}"
     dependencies="${MODULE_DEPENDENCIES[$module]}"
     
-    cp "$mac_file" Testbenches/binary.mac
+	if [[ $testbench == "PROCESSOR_tb.v" ]]; then
+    	read -p "Enter the .mac file that has the machine instructions: " mac_file
+    	cp "$mac_file" Testbenches/binary.mac
+	fi
     
-    if [[ -f "$mac_file" ]]; then
+    if [[ -f "$mac_file" || $testbench != "PROCESSOR_tb.v" ]]; then
 		echo "Simulating $testbench with dependencies: "
 		echo "     $dependencies..."
         
@@ -155,8 +158,7 @@ elif [[ $1 = "simulate" ]]; then
 	echo "     $testbenches"
 	echo 
     read -p "Enter the name of the testbench you want to simulate: " testbench
-    read -p "Enter the .mac file that has the machine instructions: " mac_file
-    simulate "$testbench" "$mac_file"
+    simulate "$testbench"
 
 else
     display_help
