@@ -48,7 +48,7 @@ Icarus Verilog allows coding structures that are not allowed by other compilers.
 * Must be a custom ISA.
 
 ## Architecture
-The architecture of the microprocessor is straightforward, featuring 8 instructions with an instruction bit width of 21 bits.
+The architecture of the microprocessor is straightforward, featuring 8 instructions with an instruction bit width of 21 bits. It also supports 6-bit immediate values through the ``Load_I`` instruction.
 
 ### Microprocessor Top Level Connections
 ![Microprocessor connection overview](https://github.com/HarrisonStokes/21-Bit-Microprocessor/blob/main/Pictures/Block_Diagram.png)
