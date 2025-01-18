@@ -35,6 +35,10 @@ To install Icaruse Verilog Compiler (Iverilog). Used to compile Verilog files an
 To install Gtkwave Simulator. Used to visualize the waveforms and more simulation of testbenches.
 
     sudo apt install gtkwave
+
+To clone repository run the following command:
+
+    git clone https://github.com/HarrisonStokes/21-Bit-Microprocessor.git
  
 **Known Issues**:
 Icarus Verilog allows coding structures that are not allowed by other compilers.
